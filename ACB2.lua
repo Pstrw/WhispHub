@@ -21,7 +21,7 @@ while getgenv().CoolCheck == true do
     wait()
     for _, player in pairs(game.Players:GetPlayers()) do
         if player:IsInGroup(groupId) then
-            game.Players.LocalPlayer:Kick(player.Name .. " Joined or Is In Your Game")
+            game.Players.LocalPlayer:Kick(player.Name .. " is a mod or smth)
         end
     end
 end
